@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watsapp</title>
+    <link rel="stylesheet" href="chats.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=PT+Serif&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="top">
+        <div id="namedivv">
+            <span id="spandivv"><b>YOU:</b></span>
+            <span id="login-name"></span>
+        </div>
+        <div id="secdiv">
+            <span><b></b></span>
+            <i class="fa fa-users"></i>
+            <span id="current-group-name"></span>
+        </div>
+        <div id="logout-btn-div">
+            <button id="logout-btn" onclick="logout()">Logout</button>
+        </div>
+    </section>
+
+
+    <section id="main">
+
+
+        <div class="group-list-container">
+            <form onsubmit="createGroup(event)" class="create-group">
+                <input type="text" id="create-group-input" class="create-group-input" placeholder="Enter group name"
+                    required>
+                <button type="submit" class="">Create</button>
+            </form>
+            <h2>GROUPS</h2>
+            <li>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </li>
+            <div id="group-list-wrapper">
+                <div id="group-list" class="group-list"></div>
+                <div id="users-inside-group"></div>
+            </div>
+        </div>
+
+
+
+        <div class="user-list-container">
+            <h2>CONTACTS</h2>
+            <li>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </li>
+
+            <div id="user-list" class="user-list"></div>
+        </div>
+
+        <div class="group-chat-container">
+            <div id="group-chat-receive-box" class="message-container"></div>
+            <form action="" onsubmit="sendGroupMsg(event)" id="group-chat-form" class="send-container">
+                <input type="text" id="group-chat-input" class="message-input" placeholder="Type your message" required>
+                <button type="submit" id="send-btn-group" class="send-btn">Send</button>
+            </form>
+            <form id="sendfdiv" onsubmit="sendFile(event)" enctype="multipart/form-data">
+                <input type="file" id="file-input">
+                <button type="submit">Send File</button>
+            </form>
+
+        </div>
+    </section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" defer></script>
+<script src="chat.js" defer></script>
+
+</html>

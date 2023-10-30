@@ -1,0 +1,59 @@
+#formdiv{
+    background-color: rgb(247, 242, 242);
+    padding: 19px;
+    width: 420px;
+    margin-left: 520px;
+    margin-top: 60px;
+}
+
+.title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 700px;
+    margin-top: 40px;
+}
+
+#email{
+    margin-left: 30px;
+}
+#password{
+    margin-bottom: 20px;
+}
+
+#formdiv label{
+    margin-left: 40px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#formdiv input{
+    padding: 7px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 220px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#signup-btn{
+    background-color: rgb(25, 43, 207);
+    color: white;
+    border-color: rgb(12, 123, 138);
+    border-radius: 90px;
+    font-weight: bolder;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 98px;
+}
+
+.signup-link{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 96px;
+    margin-top: 15px;
+}
+
+.signup-link a{
+    color: blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}

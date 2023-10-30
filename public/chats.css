@@ -1,0 +1,249 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#top{
+    height: 25px;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    padding: 16px;
+}
+
+
+#spandivv{
+    color: white;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#namedivv{
+    width: 536px;
+}
+
+
+#login-name{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+#secdiv{
+    margin-left: -375px;
+}
+
+
+#secdiv i{
+    color: rgb(255, 255, 255);
+    font-size: 29px;
+    border-radius: 50px;
+    margin-left: 350px;
+}
+
+#current-group-name{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#logout-btn{
+    background-color: rgb(247, 247, 132);
+    color: black;
+    padding: 5px;
+    width: 68px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 650px;
+    border-radius: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* top done */
+
+.group-list-container{
+    background-color: rgb(242, 244, 245);
+    width: 500px;
+    height: 310px;
+    overflow-y: scroll;
+}
+
+.group-list-container h2{
+    text-align: center;
+    margin-top: 5px;
+    background-color: rgb(216, 215, 215);
+    margin-bottom: -16px;
+}
+
+.create-group input{
+    margin-left: 6px;
+    margin-top: 3px;
+    padding: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 350px;
+}
+
+.create-group button{
+    background-color: rgb(15, 138, 15);
+    color: beige;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: aliceblue;
+    padding: 4px;
+    width: 67px;
+}
+
+
+.group-list-container li{
+    list-style: none;
+    padding: 4px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.group-list-container span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#show-users{
+    margin-left: 10px;
+    background-color: rgb(158, 236, 236);
+    padding: 2px;
+    border-color: wheat;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#change-group-btn{
+    background-color: rgb(158, 236, 236);
+    padding: 2px;
+    border-color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#delete-group-btn{
+    background-color: rgb(241, 60, 60);
+    padding: 2px;
+    color: whitesmoke;
+    border-color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* group done */
+
+
+.user-list-container{
+    background-color: rgb(242, 244, 245);
+    width: 500px;
+    height: 310px;
+    overflow-y: scroll;
+}
+
+.user-list-container h2{
+    text-align: center;
+    background-color: rgb(216, 215, 215);
+    margin-top: 2px;
+}
+
+.user-list-container li{
+    list-style: none;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#add-user-btn{
+    background-color: rgb(25, 25, 102);
+    color: white;
+    border-color: white;
+    padding: 2px;
+    width: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* done user */
+
+.group-chat-container{
+    background-color: rgb(247, 246, 246);
+    margin-left: 504px;
+    width: 995px;
+    height: 620px;
+    margin-top: -620px;
+    position: fixed;
+    margin-bottom: -30px;
+    
+}
+
+.send-container{
+    position: fixed;
+    
+}
+
+.message-input{
+    width: 500px;
+    padding: 12px;
+    font-size: large;
+    
+}
+
+.send-btn{
+    background-color: blue;
+    color: azure;
+    border-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 12px;
+    font-size: large;
+    width: 70px;
+    border-radius: 30px;
+}
+
+#group-chat-receive-box{
+    background-color: rgb(243, 247, 247);
+    margin-top: 20px;
+    height: 550px;
+    overflow-y: scroll;
+    margin-left: 25px;
+    
+}
+
+#group-chat-receive-box b{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#sendfdiv{
+    margin-left: 610px;
+    position: fixed;
+}
+
+#sendfdiv button{
+    background-color: blue;
+    color: azure;
+    border-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px;
+    border-radius: 50px;
+}
+
+
+#users-inside-group span{
+    color: rgb(30, 167, 177);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#remove-user-btn{
+    border-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(178, 211, 178);
+}
+
+#make-admin-btn{
+    border-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(178, 211, 178);
+}
+
+
